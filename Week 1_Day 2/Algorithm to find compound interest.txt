@@ -1,0 +1,5 @@
+start
+read values principal amount,number of years,interest
+calculate compound interst<---principal amount*(1+interst/100)number of years-principal amount
+print compound interest 
+stop

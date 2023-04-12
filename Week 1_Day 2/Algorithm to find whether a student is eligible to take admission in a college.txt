@@ -1,0 +1,7 @@
+start 
+read percentage 
+if (percentage>85)
+         print "eligible to take admission"
+else
+         print"not eligible to take admission"
+stop

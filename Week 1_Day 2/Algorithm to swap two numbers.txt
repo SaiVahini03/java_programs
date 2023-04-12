@@ -1,0 +1,7 @@
+start
+read the values of number1 ,number2
+temp <---number1
+number1 <---number2
+number2 <---temp
+print values number1 and number 2
+stop
