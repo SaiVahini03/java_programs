@@ -1,0 +1,9 @@
+start
+read number n
+initialize count<--1,sum<--0,i<--2
+repeatedly execute the steps (i)-(iii) until (count<=n)
+              (i)sum <-- sum+i
+             (ii)i <-- i+2
+            (iii)count <-- count+1
+print sum
+stop
