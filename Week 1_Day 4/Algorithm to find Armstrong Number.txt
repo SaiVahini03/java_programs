@@ -1,0 +1,12 @@
+1.start
+2.read the number N
+3.intilize sum<---0,temp number=N
+4.Repeat the steps 4-6 until N>0
+5.Rem=N%10
+6.Sum=Sum+(Rem*Rem*Rem)
+7.N=N/10
+8.if Sum=temp number
+     print " number is Armstrong"
+  else 
+     Print"number is not a Armstrong"
+9.stop

@@ -1,0 +1,13 @@
+1.start
+2.read number n
+3.intilize number1<----0
+           number2<----1
+           count<---2
+4.print number1,number2
+5.repeat the steps 5-9 until count<n
+6.next number<--number1+number2
+7.print next number
+8.number1<---number2
+9.number2<---sum
+10.count<---count+1
+11.stop
