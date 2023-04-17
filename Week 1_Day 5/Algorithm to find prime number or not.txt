@@ -1,0 +1,16 @@
+1.start
+2.read the number n
+3.intialize i<---1
+            count<---0
+4.if i<=n if true go to step 5
+  else go to step 7
+5.check n%i==0, if true go to step 6
+  else go to step 7
+6.intialize i<---i+1
+            count<---count+1 and go to step 4
+7.if count is 2 
+          print Prime number
+  else 
+          print Not a Prime number
+8.stop
+              

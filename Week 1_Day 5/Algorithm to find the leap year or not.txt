@@ -1,0 +1,11 @@
+1.start
+2.Read year
+3.if the year is divisible by 4 then go to step 4
+  else go to step 7
+4.if the year is divisible by 100 then go to step 5
+  else go to step 7
+5.if the year is divisible by 400 then go to step 6
+  else go to step 7
+6.print Leap year
+7.print Not a Leap year
+8.stop

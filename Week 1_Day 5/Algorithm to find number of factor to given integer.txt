@@ -1,0 +1,8 @@
+1.start
+2.Read the integer n
+3.initialize count<---0,i<---1
+4.Repeat the steps a and b until (i<=n)
+                 a)if n%i==0 then count<---count+1
+                 b)i<----i+1
+5.print count
+6.stop
