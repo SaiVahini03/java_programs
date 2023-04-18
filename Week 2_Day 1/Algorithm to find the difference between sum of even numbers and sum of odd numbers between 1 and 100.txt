@@ -1,0 +1,11 @@
+1.start
+2.initialize the numbers n=1,even sum=0,odd sum=0
+3.Repeat the steps until n<=100
+              a)if n%2=0
+                     even sum=even sum+n
+                else
+                     odd sum=odd sum+n
+              b)n=n+1
+4.difference = even sum-odd sum
+5.print difference 
+6.stop
