@@ -1,0 +1,16 @@
+
+// WAP to print alphabets from a-z
+import java.util.*;
+
+public class Program6 {
+  public static void main(String[] args) {
+    char c = 'a';
+    Scanner sc = new Scanner(System.in);
+    while (c >= 97 && c <= 122) {
+      c++;
+      System.out.println(c + "");
+
+    }
+
+  }
+}

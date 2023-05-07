@@ -1,0 +1,21 @@
+
+//WAP to print even numbers between 1 to 100
+import java.util.Scanner;
+
+public class Program7 {
+  public static void main(String[] args) {
+    int i;
+    int number;
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter the limit");
+    number = sc.nextInt();
+    i = 2;
+    System.out.println("list of even numbers");
+    while (i <= number) {
+      System.out.println(i + "");
+      i = i + 2;
+    }
+
+  }
+
+}

@@ -1,0 +1,20 @@
+
+//WAP to Print sum of all natural numbers between 1 to n 
+import java.util.Scanner;
+
+public class Program9 {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int sum = 0, count = 1;
+    int number;
+    System.out.println("Enter the limit");
+    number = sc.nextInt();
+    while (count <= number) {
+      sum = sum + count;
+      count++;
+
+    }
+    System.out.println("sum of  numbers is " + sum);
+
+  }
+}
