@@ -1,0 +1,23 @@
+
+//WAP to enter a number and print its reverse using for loop
+import java.util.Scanner;
+
+ class Program10 {
+  public void reversenumber() {
+    Scanner sc = new Scanner(System.in);
+    int revnum, digit, num;
+    System.out.println("Enter the number");
+    num = sc.nextInt();
+    for (revnum = 0; num > 0; num = num / 10, revnum = revnum * 10 + digit) {
+      digit = num % 10;
+
+    }
+    System.out.println("Reverse of the number is" + revnum);
+  }
+}
+public class Program10main{
+  public static void main(String[] args){
+    Program10 a= new Program10();
+    a.reversenumber();
+  }
+}

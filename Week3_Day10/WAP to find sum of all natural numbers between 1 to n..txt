@@ -1,0 +1,28 @@
+//WAP to find sum of all natural numbers between 1 to n.
+
+import java.util.Scanner;
+
+class Program1 {
+  public void natural() {
+    Scanner sc = new Scanner(System.in);
+    int sum = 0, count = 1, num;
+    System.out.println("Enter the limit");
+    num = sc.nextInt();
+    do {
+      sum = sum + num;
+      count = count + 1;
+    }
+
+    while (count <= num);
+    System.out.println("sum is :" + sum);
+  }
+
+}
+
+public class Program1main {
+  public static void main(String[] args) {
+    Program1 a = new Program1();
+    a.natural();
+  }
+
+}

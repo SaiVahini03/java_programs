@@ -1,0 +1,19 @@
+
+//WAP to enter a number and print its reverse.
+import java.util.Scanner;
+
+public class Program6 {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int rev_num = 0, digit, num;
+    System.out.println("Enter the number");
+    num = sc.nextInt();
+    do {
+
+      digit = num % 10;
+      rev_num = rev_num * 10 + digit;
+      num = num / 10;
+    } while (num > 0);
+    System.out.println("Reverse of the number is " + rev_num);
+  }
+}

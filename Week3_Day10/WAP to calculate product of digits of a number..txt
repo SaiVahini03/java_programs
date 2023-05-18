@@ -1,0 +1,19 @@
+
+//WAP to calculate product of digits of a number.
+import java.util.Scanner;
+
+public class Program7 {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int mul = 1, num, digit;
+    System.out.println("Enter the number");
+    num = sc.nextInt();
+    do {
+      digit = num % 10;
+      mul = mul * digit;
+      num = num / 10;
+
+    } while (num !=0);
+    System.out.println("Multiplication of the number :" + mul);
+  }
+}
