@@ -1,0 +1,31 @@
+//WAP to reverse the integers in array
+import java.util.Scanner;
+
+public class Program2{
+  public static void main(String [] args){
+    Scanner sc= new Scanner(System.in);
+    int integer;
+    System.out.println("Enter number of integers in array");
+    integer = sc.nextInt();
+    int arr[]= new int[integer];
+    System.out.println("Enter the  integers in array");
+    for(int i=0;i<arr.length;i++)
+      arr[i] = sc.nextInt();
+      ReverseArray a= new ReverseArray();
+      a.reverseArray(arr,integer);
+    System.out.println("array after reversing");
+      for(int j=0;j<arr.length;j++)
+      System.out.println(arr[j]+" ");
+  }
+}
+class ReverseArray{
+  public int[] reverseArray(int [] arr,int integer){
+    int i,j,temp;
+    for (i=0,j=arr.length-1;i<j;i++,j--){
+      temp = arr[i];
+      arr[i] = arr[j];
+      arr[j] = temp;
+    }
+    return arr;
+  }
+}
