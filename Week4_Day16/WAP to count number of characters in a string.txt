@@ -1,0 +1,21 @@
+//WAP to count number of characters in a string
+
+import java.util.Scanner;
+class Count{
+  public void m1(){
+    Scanner sc= new Scanner (System.in);
+    int count=0;
+    System.out.println("Enter the string");
+    String str=sc.nextLine();
+    for(int i=0;i<str.length();i++){
+      count++;
+    }
+    System.out.println(count);
+  }
+}
+public class CountMain{
+  public static void main(String[] args){
+    Count a =new Count();
+    a.m1();
+  }
+}

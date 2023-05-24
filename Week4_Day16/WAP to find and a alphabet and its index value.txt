@@ -1,0 +1,17 @@
+//WAP to find and a alphabet and its index value
+
+import java.util.*;
+public class Program2{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter the string : ");
+    String input=sc.nextLine();
+    char ch = sc.next().charAt(0);
+    int index = input.indexOf(ch);
+    if(index==-1)
+      System.out.println(ch+"Not found in String ");
+    else
+       System.out.println(ch+"Found in String");
+       System.out.println("index value is "+index);
+  }
+}

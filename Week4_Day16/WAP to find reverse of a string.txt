@@ -1,0 +1,20 @@
+//WAP to find reverse of a string
+import java.util.Scanner;
+class Reverse{
+  public void m1(){
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter a String");
+    String s1=sc.nextLine();
+    String newStr="";
+    for(int i=0;i<s1.length();i++){
+      newStr=s1.charAt(i)+newStr;
+    }
+    System.out.println("Reversed string elements are"+newStr);
+  }
+}
+public class ReverseMain{
+  public static void main(String[] args){
+    Reverse r= new Reverse();
+    r.m1();
+  }
+}
